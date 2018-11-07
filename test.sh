@@ -4,6 +4,9 @@ export PYTHONPATH=:/usr/local/lib/python2.7/dist-packages/tensorflow/models/rese
 
 PROJECT_DIRECTORY=`pwd`
 
+echo "Saving"
+./save.sh
+
 echo "Testing"
 cd $PROJECT_DIRECTORY
 python test.py

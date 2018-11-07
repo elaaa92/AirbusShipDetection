@@ -15,7 +15,7 @@ Lancio del training
 Copiare il modello desiderato (interno delle cartelle fine_tuned_model) nella cartella models/model  
 ./train_step.sh  
   
-Monitoraggio modello corrente (dalla cartella radice del progetto)  
+Monitoraggio modello corrente  
 tensorboard --logdir ./models/model/eval_eval/  
   
 Comparazione modelli  

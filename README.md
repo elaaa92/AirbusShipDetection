@@ -12,14 +12,14 @@ Modelli pre-trained:
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md  
   
 Lancio del training  
-Copiare il modello desiderato (interno delle cartelle fine_tuned_model) nella cartella models/model  
+Copiare il modello desiderato (file ckpt, graph ecc) nella cartella models/model  
 ./train_step.sh  
   
 Monitoraggio modello corrente  
 tensorboard --logdir ./models/model/eval_eval/  
   
 Comparazione modelli  
-tensorboard --logdir=faster_rcnn:path_to_model_eval_dir,ssd_mobilenet:path_to_model_eval_dir,ssd_inception:path_to_model_eval_dir  
+tensorboard --logdir=modelname1:path_to_model1_eval_dir,modelname2:path_to_model2_eval_dir,modelname3:path_to_model3_eval_dir  
 
 Valutazione modelli  
 ./eval.sh  

@@ -28,5 +28,6 @@ Salvataggio dei checkpoint models/model (viene già chiamata alla fine di ogni c
 ./config_adjust  
 ./save.sh  
   
-Test dei checkpoint in models/model  
+Generazione dei file con segmentazione delle navi del test set usando checkpoint e modelli salvati in models/model  
 ./test.sh  
+I file vengono salvati in Challenge/submission.  

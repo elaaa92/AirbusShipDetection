@@ -13,12 +13,6 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 NB prima di installare le cocoapi (come indicato nella guida) scaricare models  
 cd <path_to_tensorflow>  
 git clone https://github.com/tensorflow/models  
-
-Download di pycocotools  
-git clone https://github.com/cocodataset/cocoapi.git  
-cd cocoapi/PythonAPI  
-make  
-cp -r pycocotools <path_to_tensorflow>/models/research/  
   
 Creazione del dataset in formato riconosciuto TFRecord  
 ./generate_tf.sh  

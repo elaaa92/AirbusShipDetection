@@ -3,7 +3,10 @@
 Le immagini devono essere all'interno delle cartelle Challenge/train e Challenge/test
 
 Installazione delle api per tensorflow  
-https://github.com/tensorflow/tensorflow  
+https://github.com/tensorflow/tensorflow 
+
+Download di object detection  
+pip install object-detection  
   
 Creazione del dataset in formato riconosciuto TFRecord  
 ./generate_tf.sh  

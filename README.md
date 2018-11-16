@@ -6,7 +6,7 @@ Installazione delle api per tensorflow
 https://github.com/tensorflow/tensorflow  
   
 Creazione del dataset in formato riconosciuto TFRecord  
-python generate_tf.py  
+./generate_tf.sh  
   
 Modelli pre-trained:  
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md  

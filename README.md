@@ -9,10 +9,17 @@ https://www.kaggle.com/c/airbus-ship-detection/data
 Le immagini devono essere all'interno delle cartelle Challenge/train e Challenge/test
 
 Installazione delle api per tensorflow  
-https://github.com/tensorflow/tensorflow 
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md  
 
-Download di models all'interno della cartella di installazione di TensorFlow:  
+Download di models:   
+cd <path_to_tensorflow>  
 git clone https://github.com/tensorflow/models  
+
+Download di pycocotools  
+git clone https://github.com/cocodataset/cocoapi.git
+cd cocoapi/PythonAPI
+make
+cp -r pycocotools <path_to_tensorflow>/models/research/
   
 Creazione del dataset in formato riconosciuto TFRecord  
 ./generate_tf.sh  

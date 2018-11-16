@@ -21,8 +21,10 @@ Modelli pre-trained:
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md  
   
 Lancio del training  
-Copiare il modello desiderato (file ckpt, graph, pipeline.config, ecc) nella cartella models/model  
+Copiare il modello desiderato (tutti i file ckpt e pipeline.config) nella cartella models/model  
 ./train_step.sh  
+NB nel pipeline.config è necessario impostare l'opzione batch_size con un valore opportuno a seconda delle capacità della propria macchina; se non particolarmente performante è possibile mettere batch_size=1.  
+NNB Assicurarsi che le configurazioni dei modelli siano quelle dell'ultima versione di tensorflow, perché in alternativa potrebbero non funzionare correttamente  
   
 Monitoraggio modello corrente  
 tensorboard --logdir ./models/model/eval_eval/  

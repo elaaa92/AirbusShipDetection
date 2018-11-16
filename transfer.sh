@@ -1,5 +1,7 @@
 #!/bin/bash
 
+./export.sh
+
 #ckpts=($(ls Challenge/test/))
 
 readarray ckpts < test_diff.txt

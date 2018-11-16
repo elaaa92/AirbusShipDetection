@@ -5,7 +5,7 @@ Le immagini devono essere all'interno delle cartelle Challenge/train e Challenge
 Installazione delle api per tensorflow  
 https://github.com/tensorflow/tensorflow 
 
-Download di models all'interno della cartella di installazione di TensorFlow:
+Download di models all'interno della cartella di installazione di TensorFlow:  
 git clone https://github.com/tensorflow/models  
   
 Creazione del dataset in formato riconosciuto TFRecord  

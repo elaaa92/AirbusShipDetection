@@ -1,5 +1,11 @@
 # AirbusShipDetection
 
+L'applicazione si riferisce al task definito dalla challenge Airbus Ship Detection  
+https://www.kaggle.com/c/airbus-ship-detection  
+
+Il dataset può essere scaricato all'indirizzo  
+https://www.kaggle.com/c/airbus-ship-detection/data  
+
 Le immagini devono essere all'interno delle cartelle Challenge/train e Challenge/test
 
 Installazione delle api per tensorflow  

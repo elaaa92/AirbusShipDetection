@@ -21,7 +21,7 @@ Modelli pre-trained:
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md  
   
 Lancio del training  
-Copiare il modello desiderato (file ckpt, graph ecc) nella cartella models/model  
+Copiare il modello desiderato (file ckpt, graph, pipeline.config, ecc) nella cartella models/model  
 ./train_step.sh  
   
 Monitoraggio modello corrente  

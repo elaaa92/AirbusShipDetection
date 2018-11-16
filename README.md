@@ -10,8 +10,7 @@ Le immagini devono essere all'interno delle cartelle Challenge/train e Challenge
 
 Installazione delle api per tensorflow  
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md  
-
-Download di models   
+NB prima di installare le cocoapi (come indicato nella guida) scaricare models  
 cd <path_to_tensorflow>  
 git clone https://github.com/tensorflow/models  
 
